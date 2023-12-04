@@ -13,7 +13,7 @@ fn read_lines(filename: &str) -> Vec<String> {
 pub fn get_first_star_value() -> u32{
     let mut numbers: Vec<u32> = Vec::new();
     let mut total:u32 = 0;
-    let lines = read_lines("/home/paulo/Documents/Advent-of-code-2023/src/input/input-1star.txt");
+    let lines = read_lines("./src/inputs/input-1star.txt");
 
     // Consumes the iterator, returns an (Optional) String
     for line in lines {
